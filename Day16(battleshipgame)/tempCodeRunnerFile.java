@@ -1,0 +1,2 @@
+
+locationCells.remove(index);

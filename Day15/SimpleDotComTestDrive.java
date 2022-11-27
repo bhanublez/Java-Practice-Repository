@@ -9,10 +9,18 @@ public class SimpleDotComTestDrive {
     int[] locations = {randomnum,randomnum+1,randomnum+2};
     dot.setLocationCells(locations);
     Scanner sc= new Scanner(System.in);
-    BufferReader is= new BufferReader(new InputStreamReader(System.in));
-    String userGuess=is.readLine();
+    String userGuess=null;
+    
+    try{
+    BufferedReader is= new BufferedReader(new InputStreamReader(System.in));
+    
     System.out.println("Enter you guess please");
+    userGuess = is.readLine();
     //String userGuess = sc.next();
+
+    }catch (Exception e) {
+       System.out.println(e);
+    }
     String result = dot.checkYourself(userGuess);
     }
     }

@@ -1,0 +1,8 @@
+//Checking array is sorted or not
+import java.util.*;
+public int check_Sorted(int []A,int index ){
+    if(A.length==1)
+    return 1;
+    return (A[index-1]<A[index-2])?0:check_Sorted(A,index-1);
+
+}
