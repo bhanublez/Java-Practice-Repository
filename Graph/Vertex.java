@@ -2,23 +2,23 @@ import java.util.*;
 
 public class Vertex{
     private String data;
-    private ArrayList<Edges> edges;
+    private static ArrayList<Edges> edges;
 public Vertex(String inputData){
     this.data=inputData;
-    this.edges= new ArrayList<Edge>();
+    Vertex.edges= new ArrayList<Edges>();
 }
-public void addEdge(Vertex endVertex,Integer weight){
-this.edges.add(new Edge(this,endVertex,weight));
+public static void addEdge(Vertex endVertex,Integer weight){
+Vertex.edges.add(new Edges(endVertex,endVertex, weight));
 
 }
-public void removeEdge(Vertex endVertex){
-    this.edges.removeIf(edge->edge.getEnd().equals(endVertex));
+public static void removeEdge(Vertex endVertex){
+    Vertex.edges.removeIf(edge->edge.getEnd().equals(endVertex));
 }
 
 public String getData(){
     return this.data;
 }
-public ArrayList<Edge> getEdges(){
+public ArrayList<Edges> getEdges(){
     return this.edges;
 }
 public void print(boolean showWeight){

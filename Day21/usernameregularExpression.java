@@ -3,7 +3,7 @@
 // import java.util.regex.*;
 // import java.math.*;
 
-// public class Solution {
+// public class usernameregularExpression {
 
 //     public static void main(String[] args) {
 //         Scanner sc = new Scanner(System.in);
@@ -48,7 +48,7 @@ class UsernameValidator {
      */
     public static final String regularExpression = "^[A-Za-z]\\w{7,29}$";
 }
-public class Solution {
+public class usernameregularExpression {
     private static final Scanner scan = new Scanner(System.in);
     
     public static void main(String[] args) {

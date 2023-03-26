@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Solution {
+public class use_String_operator {
 
     public static void main(String[] args) {
         

@@ -4,7 +4,7 @@ import java.util.*;
 import java.text.*;
 import java.math.*;
 import java.util.regex.*;
-public class Solution {
+public class Currency {
     
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

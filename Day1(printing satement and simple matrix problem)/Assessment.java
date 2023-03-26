@@ -6,9 +6,10 @@ class Assessment
 
 	{
 	  int m,n;
-	  Scanner Sc=new Scanner(System.in);
-	 
-	    
+	  Scanner sc=new Scanner(System.in);
+	  m=sc.nextInt();
+	  n=sc.nextInt();
+	    System.out.println(m+n);
 
 
  

@@ -3,7 +3,7 @@ import java.util.*;
 import java.text.*;
 import java.math.*;
 import java.util.regex.*;
-public class Solution{
+public class tagcontentExtractor{
    public static void main(String[] args){
       
        Pattern pattern = Pattern.compile("<([^>]+)>([^<]+)</\\1>");

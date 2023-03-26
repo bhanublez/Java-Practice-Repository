@@ -4,7 +4,7 @@ import java.util.regex.Pattern;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
-public class DetectHtmlTags {
+public class htmltags {
 
     private static final String TAG_PATTERN = "<\\s*[a-z0-9]+";
 

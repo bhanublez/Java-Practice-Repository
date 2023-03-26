@@ -4,7 +4,7 @@ import java.util.regex.*;
 import java.math.*;
 
 
-public class Solution {
+public class negativelookahead {
 
     public static void main(String[] args) {
         Regex_test rt =new Regex_test();

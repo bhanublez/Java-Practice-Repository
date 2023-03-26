@@ -4,7 +4,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class Solution {    
+public class regexpattern6 {    
 
     public static void main(String[] args) {
         

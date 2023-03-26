@@ -4,7 +4,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class Solution {    
+public class Regex_findingname {    
 
     public static void main(String[] args) {
         

@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Solution {
+public class JavaBigNumber {
 
 private static final Scanner sc = new Scanner(System.in);
 

@@ -25,7 +25,7 @@ class Prime{
 }
 
 
-public class Solution {
+public class checking_prime {
 
 	public static void main(String[] args) {
 		try{

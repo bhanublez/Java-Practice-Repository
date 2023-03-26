@@ -4,7 +4,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class Solution {
+public class detecthtmllink {
 
     public static void main(String[] args) {
         Scanner scin = new Scanner(System.in);

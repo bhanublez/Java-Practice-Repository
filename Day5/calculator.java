@@ -36,7 +36,7 @@ class calculator implements Sum,Product,Average
    
    public int Sum()
    {
-     retrun(n1+n3);
+     return(n1+n3);
    }
 
 
@@ -52,11 +52,9 @@ class calculator implements Sum,Product,Average
   public double Average()
   {
     double m;
-    m=(n2+d2)/2;
+   return  m=(n2+d2)/2;
   }
 
-}
-class Multiinterface
 
   public static void main(String[] args)
   {
@@ -64,6 +62,33 @@ class Multiinterface
    System.out.println("Sum of two integers is :" +d.Sum());
    System.out.println("Product of two doubles is :" +d.Product()); 
    System.out.println("Average of a integer and a double is :" +d.Sum());
+  }
+
+
+
+
+  @Override
+  public double mean() {
+    // TODO Auto-generated method stub
+    throw new UnsupportedOperationException("Unimplemented method 'mean'");
+  }
+
+
+
+
+  @Override
+  public double multiply() {
+    // TODO Auto-generated method stub
+    throw new UnsupportedOperationException("Unimplemented method 'multiply'");
+  }
+
+
+
+
+  @Override
+  public int add() {
+    // TODO Auto-generated method stub
+    throw new UnsupportedOperationException("Unimplemented method 'add'");
   }
 
 }  

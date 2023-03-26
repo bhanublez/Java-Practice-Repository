@@ -1,4 +1,3 @@
-package helloworld;
 import java.util.Scanner;
 public class matrixadd {
 public static void main(String[] args) {

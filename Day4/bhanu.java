@@ -57,7 +57,7 @@ class c3 extends c2
   }
 }
 
-class Shyam
+class bhanu
 {
   public static void main(String[] args)
   {

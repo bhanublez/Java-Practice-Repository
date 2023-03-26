@@ -9,7 +9,7 @@ TextField tn1,tn2,tn3;
 Button btn1,btn2,btn3;
 
 
-public AwtGuiAppPr21()
+public void AwtGuiAppPr21()
 {
 f=new Frame("AWT GUI APPLICATION");
 p=new Panel();

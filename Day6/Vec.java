@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Vector
+class Vec
 {
    public static void main(String[] args)
    {
@@ -41,5 +41,5 @@ class Vector
         String temp=Sc.next();
         v.addElement(temp);
    }
-
+  }
 }

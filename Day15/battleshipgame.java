@@ -25,7 +25,7 @@ class battleshipgame{
     System.out.println("Try to sink them all in the fewest number of guesses");
     for(String nameTest: d_list){
         ArrayList<String> newLocation=helper.placeDotCom(3);
-        d_list.setLocationCells(newLocation);
+        //d_list.setLocationCells(newLocation);
     }                 
     }
     private void startPlaying(){

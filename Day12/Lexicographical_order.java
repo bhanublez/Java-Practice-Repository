@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Solution {
+public class Lexicographical_order {
 
     public static String getSmallestAndLargest(String s, int k) {
         int n=s.length();

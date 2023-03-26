@@ -9,6 +9,6 @@ class Main {
   public static void main(String[] args) {
 
     // create an object of GenericsClass
-    GenericsClass<String> obj = new GenericsClass<>();
+   // GenericsClass<String> obj = new GenericsClass<>();
   }
 }

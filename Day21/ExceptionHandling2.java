@@ -14,7 +14,7 @@ public static int power(int n, int p) throws Exception{
 }
 }
 
-public class Solution {
+public class ExceptionHandling2 {
     public static final Find fd = new Find();
     public static final Scanner in = new Scanner(System.in);
     

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.regex.*;
 
-public class Solution
+public class regex
 {
     
  

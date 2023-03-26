@@ -7,7 +7,7 @@ the next nextLine() will be reading the remainder of the integer line (which is 
 */
 import java.util.*;
 
-public class Solution {
+public class Scan_int_double_String {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

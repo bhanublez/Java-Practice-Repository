@@ -12,7 +12,7 @@ import static java.util.stream.Collectors.toList;
 
 
 
-public class Solution {
+public class bigIntegerPrimilarytest {
    
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));

@@ -6,7 +6,7 @@ import java.util.regex.*;
 
 
 
-public class Solution {
+public class alternativeofbranchgroupreset {
 
     public static void main(String[] args) {
         Regex_Test tester = new Regex_Test();

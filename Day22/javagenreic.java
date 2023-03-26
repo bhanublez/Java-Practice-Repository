@@ -12,7 +12,7 @@ class Printer
    }
  
 }
-public class Solution {
+public class javagenreic {
     public static void main( String args[] ) {
         Printer myPrinter = new Printer();
         Integer[] intArray = { 1, 2, 3 };

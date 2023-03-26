@@ -3,11 +3,11 @@ import java.util.*;
 public class Graph{
     private ArrayList<Vertex> vertices;
     private boolean isWeighted;
-    private boolena isDirected;
+    private boolean isDirected;
 
     public Graph(boolean inputIsWeightedm,boolean inputIsDirected){
         this.vertices= new ArrayList<Vertex>();
-        this.isWeighted= inputIsWeighted;
+        this.isWeighted= isWeighted();
         this.isDirected=inputIsDirected;
     }
     public Vertex addVertex(String data){
@@ -19,7 +19,7 @@ public class Graph{
         if(!this.isWeighted){
             weight= null;
         }
-        vertex.addEdge(vertex3,weight);
+        Vertex.addEdge(vertex2,weight);
         if(!this.isDirected){
 vertex2.addEdge(vertex1,weight);
         }
@@ -27,7 +27,7 @@ vertex2.addEdge(vertex1,weight);
     public void removeEdge(Vertex vertex1,Vertex vertex2){
         vertex1.removeEdge(vertex2);
         if(this.isDirected){
-            vertex.removeEdge(vertex1);
+            Vertex.removeEdge(vertex1);
         }
     }
     public void removeVertex(Vertex vertex){
@@ -57,11 +57,11 @@ vertex2.addEdge(vertex1,weight);
         }
     }
      public static void main(String[] args) {
-        Graph busNetwork = new Graph(inputIsWeighted true,inputIsDirected true);
-        Vetex Bhopalstation =busNetwork.addVertex(data:"Bhoplaa");
-        Vetex delhistation =busNetwork.addVertex(data:"Della");
+        Graph busNetwork = new Graph( true, true);
+        Vertex Bhopalstation =busNetwork.addVertex("Bhoplaa");
+        Vertex delhistation =busNetwork.addVertex("Della");
 
-        busNetwork.addEdge(Bhopalstation,delhistation,weight: 1000);
+        busNetwork.addEdge(Bhopalstation,delhistation,1000);
 
         busNetwork.print();
 
